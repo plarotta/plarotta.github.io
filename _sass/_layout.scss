@@ -2,36 +2,35 @@
  * Content
  ******************************************************************************/
 
-/** particles **/
-/* ---- reset ---- */
-
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
-  
+  background-color: var(--global-bg-color);
+
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
   }
 }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
 }
 
-/** Positioning for particles-js container **/
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
 }
 
-/** Positioning for main content container **/
 .container {
-  max-width: 600px;
-  position: relative;
-  width: 90%;
-  margin: auto;
+  max-width: $max-content-width;
+}
+
+// Profile
+.profile {
+  img {
+    width: 100%;
+  }
 }
 
 // TODO: redefine content layout.
