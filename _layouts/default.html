@@ -15,6 +15,7 @@
 
     <!-- Header -->
     {%- include header.html %}
+    <div id="particles-js"></div>
 
     <!-- Content -->
     <div class="container mt-5">
@@ -46,6 +47,10 @@
         {{ content }}
       {% endif %}
     </div>
+
+    <script src="/js/particles.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/setup.js"></script>
 
     <!-- Footer -->
     {%- include footer.html %}
