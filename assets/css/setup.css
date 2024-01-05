@@ -3,7 +3,7 @@
 a,
 a:visited {
     text-decoration: underline;
-    color: #fff
+    color: #fff;
 }
 
 /** Positioning for particles-js container **/
