@@ -1,0 +1,148 @@
+/** Importing fonts and setting the stage for entire document **/
+@import url("https://fonts.googleapis.com/css?family=Vollkorn|VT323");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+body {
+    font-family: "Open Sans", "Roboto", "Vollkorn", Georgia, "Times New Roman", Times, serif;
+}
+
+/** Making sure that links stay same color (regardless if visited) **/
+a,
+a:visited {
+    text-decoration: underline;
+    color: #fff
+}
+
+/** Positioning for particles-js container **/
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/** Positioning for main content container **/
+.container {
+  max-width: 600px;
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+/** Expandable list items CSS **/
+:root {
+  --opaque: rgba(0,0,0,1);
+  --transparent: rgba(0,0,0,0);
+}
+.li-collapse {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.li-expand {
+  vertical-align: top;
+  cursor: pointer;
+}
+.item-fade {
+  cursor: pointer;
+  display: inline-block;
+  max-width: 95%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  -webkit-mask-image: linear-gradient(to right, var(--opaque) 50%, var(--transparent) 100%);
+}
+.item-hide {
+  display: none;
+}
+.items-links-not-clickable > a {
+  pointer-events: none;
+}
+
+/** footer CSS **/
+.footer {
+  text-align: center;
+  padding: 0 0 20px 0;
+  color: #aaa;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.footer-icons {
+  padding: 20px 0 0 0;
+  border-top: 1px solid #ccc;
+}
+.footer i {
+  padding: 10px 10px 0px 10px;
+}
+
+/** section CSS **/
+.section {
+    padding: 80px 0 20px;
+    font-size: 14px;
+    line-height: 150%
+}
+.section h1,
+.section h2 {
+    font-size: 36px;
+    margin: 0 0 6px
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+    font-weight: 300;
+}
+.section h3 {
+    font-size: 24px;
+    color: #aaa;
+    margin: 0 0 10px;
+    font-weight: 300;
+}
+.section ul {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0;
+  list-style: none;
+}
+.section li {
+    margin: 10px;
+}
+.section p {
+    text-align: justify;
+    margin-bottom: 16px;
+}
+.section p:last-child {
+    margin-bottom: 0
+}
+
+/** Color palette CSS **/
+.color-palette {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.color-option {
+    width: 18px;
+    height: 18px;
+    margin: 0 9px 0 9px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 0;
+}
+.color-option.selected {
+	width: 16px;
+	height: 16px;
+	border-width: 1px;
+}
+.color-option[data-palette="light"] {
+    background-color: #fff;
+    border-color: #000;
+}
+.color-option[data-palette="dark"] {
+    background-color: #222;
+    border-color: #fff;
+}
+.color-option[data-palette="sepia"] {
+    background-color: #FFF4DD;
+    border-color: #000;
+}
