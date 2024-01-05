@@ -37,8 +37,8 @@ particlesJS("particles-js", {
       }
     },
     size: {
-      value: 20,
-      random: false,
+      value: 2,
+      random: true,
       anim: {
         enable: false,
         speed: 20,
@@ -48,9 +48,9 @@ particlesJS("particles-js", {
     },
     line_linked: {
       enable: true,
-      distance: 100,
-      color: '#fff',
-      opacity: 1,
+      distance: 125,
+      color: "#ababab",
+      opacity: 0.4,
       width: 1
     },
     move: {
@@ -59,7 +59,7 @@ particlesJS("particles-js", {
       direction: 'none',
       random: false,
       straight: false,
-      out_mode: 'out',
+      out_mode: 'bounce',
       bounce: false,
       attract: {
         enable: false,
@@ -73,7 +73,7 @@ particlesJS("particles-js", {
     detect_on: 'canvas',
     events: {
       onhover: {
-        enable: true,
+        enable: false,
         mode: 'grab'
       },
       onclick: {
@@ -107,7 +107,7 @@ particlesJS("particles-js", {
     },
     mouse:{}
   },
-  retina_detect: false,
+  retina_detect: true,
   fn: {
     interact: {},
     modes: {},
@@ -195,7 +195,3 @@ function collapseAndAddFade(listItemId) {
     collapseArrow.classList.add(ITEM_HIDE);
   }
 }
-
-var encodedEmail = "aXp6eUBpenp5Z29tZXouY29t" // should be {{ site.email }}
-const emailElement = document.getElementById("email")
-emailElement.setAttribute("href", "mailto:".concat(atob(encodedEmail)))
