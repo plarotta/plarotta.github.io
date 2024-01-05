@@ -240,7 +240,7 @@ defaults:
       sitemap: false
 
 sass:
-  style: compressed
+  style: expanded 
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
