@@ -114,7 +114,7 @@ particlesJS("particles-js", {
     vendors:{}
   },
   tmp: {}
-};
+});
 
 
 // HELPER FUNCTIONS
