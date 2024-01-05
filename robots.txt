@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://plarotta.github.io/plarotta/sitemap.xml
+Sitemap: https://plarotta.github.io/sitemap.xml
