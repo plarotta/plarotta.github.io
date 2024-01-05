@@ -11,6 +11,18 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <div id="particles-js"></div>
+
+    <div class="container">
+      <div class="section">
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
+
+    <script src="/js/particles.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/setup.js"></script>
 
     <!-- Header -->
     {%- include header.html %}
