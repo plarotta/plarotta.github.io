@@ -2,28 +2,32 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Pedro Leandro La Rotta
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1st February, 2021
     - name: Languages
-      value: English, German
+      value: English, Spanish, French
+    - name: status
+      value: US Citizen
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+    - title: MS
+      institution: Columbia University, New York, NY
+      year: 2024
+      area of study: robotics & artificial intelligence
+        - advanced master's research specialization in robotics
+        - title: relevant coursework
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - robot learning
+            - high-performance machine learning
+            - mathematics of deep learning
+            - reinforcement learning
+    - title: BS
+      institution: Massachusetts Institute of Technology, Cambridge, MA
+      year: 2021
+      area of study: mechanical engineering
       description:
         - Description 1.
         - Description 2.
