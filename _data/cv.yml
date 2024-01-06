@@ -16,7 +16,7 @@
     - title: MS
       institution: Columbia University, New York, NY
       year: 2024
-      area of study: robotics & artificial intelligence
+      description: robotics & artificial intelligence
         - advanced master's research specialization in robotics
         - title: relevant coursework
           contents:
@@ -27,7 +27,6 @@
     - title: BS
       institution: Massachusetts Institute of Technology, Cambridge, MA
       year: 2021
-      area of study: mechanical engineering
       description:
         - Description 1.
         - Description 2.
