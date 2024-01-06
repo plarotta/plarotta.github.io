@@ -18,6 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a Mechanical Engineering student at Columbia working on robotics and automation for biotechnology. My undergrad was in MechE at MIT where I got to work on several research projects spanning both biology and mechanical engineering, but now I mostly spend my time on learning how to build interesting robots. 
+Hi! I'm a Mechanical Engineering student at Columbia working on machine learning for robotic control. My undergrad was in Mechanical Engineering from MIT where I specialized in medical devices. Ultimately, my goal is to develop robots that improve human life.
 
-Outside of the shop you can find me running around central park or going to live music shows with friends. Running the Boston marathon is one of my big life dreams.
+In my free time, I like to escape the concrete jungle to hike, run, and go to live music shows with friends. I am an avid networker so if you find yourself in the city and are open to grabbing a coffee, please shoot me an email! 
