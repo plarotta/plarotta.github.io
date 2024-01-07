@@ -78,14 +78,36 @@
 
     - title: Research Assistant/Jr Automation Engineer
       institution: Octant Bio
-      year: 2021-2022
+      year: 2021
+      description:
+        - Initiated early automation efforts by creating process diagrams, synthesizing technical requirements, and identifying potential automation projects
+        - Devised and validated numerous technical improvements to the high-throughput screening workflow potentially reducing costs by ~20%
+        - Wrote process control visualization tools in R and Python for the high-throughput screening team
+
+    -title: Business Development Intern
+     institution: Bridge Bio
+     year: 2021
+     description:
+       - Hired to explore exoskeletons and assistive devices in the context of muscular dystrophy
+       - Conducted KOL calls and generated several assessments on the assistive device space 
+       - Presented deck to CEO at the the end of my internship
+    
+    -title: Summer Research Intern
+     institution: Novartis Institutes for BioMedical Research
+     year: 2019
+     description:
+       - Molecular biology and tissue culture to study a protein implicated in a disease-relevant cell death signaling pathway
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/plarotta/genetic-traveling-salesperson">GeneticTSP</a>
+      year: 2023
+      description: Exploring genetic algorithms through the Traveling Salesperson problem
+    
+    - title: <a href="https://github.com/plarotta/NumpyNet">NumpyNet</a>
+      year: 2023
+      description: Numpy-only deep learning framework
 
 - title: Honors and Awards
   type: time_table
