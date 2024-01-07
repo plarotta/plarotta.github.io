@@ -9,14 +9,14 @@
       value: English, Spanish, French
     - name: status
       value: US Citizen
-
+      
 - title: Education
   type: time_table
   contents:
     - title: MS
       institution: Columbia University, New York, NY
       year: 2024
-      description: robotics & artificial intelligence
+      description:
         - advanced master's research specialization in robotics
         - title: relevant coursework
           contents:
@@ -30,7 +30,7 @@
       description:
         - Description 1.
         - Description 2.
-
+        
 - title: Experience
   type: time_table
   contents:
