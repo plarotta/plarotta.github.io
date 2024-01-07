@@ -13,51 +13,58 @@
 - title: Education
   type: time_table
   contents:
-    - title: MS
+    - title: MS in Robotics
       institution: Columbia University, New York, NY
       year: 2024
       description:
-        - advanced master's research specialization in robotics
-        - title: relevant coursework
+        - Advanced master's research specialization in robotics
+        - title: Relevant coursework
           contents:
             - robot learning
             - high-performance machine learning
             - mathematics of deep learning
             - reinforcement learning
-    - title: BS
+    - title: BS in Mechanical Engineering
       institution: Massachusetts Institute of Technology, Cambridge, MA
       year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Concentrations in medical devices and french
         
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Teaching Assistant
+      institution: Department of Mechanical Engineering, Columbia University
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Spring 2023 TA for the Mechatronics class
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Maintained lab setups, identified and replaced faulty components, and assisted students with lab exercises.
+        - title: Fall 2023 TA for the applied robotics class
+          contents:
+            - Developed ROS-based assignments for the applied robotics class covering motion planning, state estimation/kalman filters, and 3D coordinate transformations.
+            - Maintained 50+ student course server and SVN repos for assignment submission and grading
+            - Held weekly office hours for students
+
+    - title: Graduate Research Assistant
+      institution: Department of Mechanical Engineering, Columbia University
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Developed a prototype for a meta-learning based framework for intent classification of EMG readings in PyTorch
+        - Implemented basic online learning methods for intent classification 
+        - Wrote firmware for the robotic hand orthosis used in the MyHand project
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Graduate Summer Intern
+      institution: Target Systems Division, Fermi National Accelerator Lab
+      year: 2023
+      description:
+        - Designed, manufactured, and installed fixtures for precise installation of a custom end-of-arm tool
+        - Devised Modbus-based communication network for a system comprised of a 2-ton radiation-shielding door and a large transport cart for moving the atomated assembly machines
+        - Created prototype PLC programs to validate door-cart control system
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Graduate Summer Intern
+      institution: Applied Physics & Superconductivity Technology Division, Fermi National Accelerator Lab
+      year: 2022
       description:
 
     - title: Associate Professor of Theoretical Physics
