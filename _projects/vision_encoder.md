@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Vision Encoder
+description: building a vision-only model to predict robot arm joint configuration
 img:
 importance: 4
-category: fun
+category: software
 ---
 
 Every project has a beautiful feature showcase page.
