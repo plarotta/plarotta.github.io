@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: ML for single-cell RNA seq analysis
+description: using unsupervised learning to identify important genes in pancreatic tumors
 img:
 importance: 3
-category: fun
+category: software
 ---
 
 Every project has a beautiful feature showcase page.
