@@ -104,7 +104,6 @@
     - title: <a href="https://github.com/plarotta/genetic-traveling-salesperson">GeneticTSP</a>
       year: 2023
       description: Exploring genetic algorithms through the Traveling Salesperson problem
-    
     - title: <a href="https://github.com/plarotta/NumpyNet">NumpyNet</a>
       year: 2023
       description: Numpy-only deep learning framework
