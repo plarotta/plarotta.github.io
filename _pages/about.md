@@ -18,6 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a Mechanical Engineering student at Columbia working on machine learning for robotic control. My undergrad was in Mechanical Engineering from MIT where I specialized in medical devices. Ultimately, my goal is to develop robots that improve human life.
+I'm Pedro, and I'm a Master's student at Columbia working at the intersection of Robotics and ML 🤖. My undergrad was in Mechanical Engineering from MIT where I specialized in biomedical devices and biomechanics. My main interest is developing robots that can better aid humans.
 
 In my free time, I like to escape the concrete jungle to hike, run, and go to live music shows with friends. I am an avid networker so if you find yourself in the city and are open to grabbing a coffee, please shoot me an email! 
