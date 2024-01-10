@@ -1,10 +1,10 @@
 ---
 layout: page
 title: GA-TSP
-description: evolutionary approach to the traveling salesman problem
-img: assets/img/7.jpg
-redirect: https://github.com/plarotta/genetic-traveling-salesperson
-importance: 3
+description: Evolving solutions to the traveling salesman problem
+img: assets/img/tsp.png
+github: https://github.com/plarotta/genetic-traveling-salesperson
+importance: 1
 category: software
 ---
 
