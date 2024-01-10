@@ -2,7 +2,7 @@
 layout: page
 title: Vision Encoder
 description: building a vision-only model to predict robot arm joint configuration
-img:
+img: assets/img/ur5.jpg
 importance: 4
 category: software
 ---
