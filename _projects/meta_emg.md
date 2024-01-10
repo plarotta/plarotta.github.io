@@ -2,7 +2,7 @@
 layout: page
 title: M-EMG
 description: meta-learning for EMG classification
-img: assets/img/1.jpg
+img: assets/img/orthosis.png
 importance: 3
 category: software
 redirect: https://github.com/plarotta/meta-emg
