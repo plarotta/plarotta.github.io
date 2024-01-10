@@ -2,10 +2,10 @@
 layout: page
 title: NumpyNet
 description: Numpy-only deep learning implementation
-img:
-importance: 4
+img: assets/img/np.jpeg
+importance: 2
 category: software
-redirect: https://github.com/plarotta/NumpyNet
+github: https://github.com/plarotta/NumpyNet
 ---
 
 Every project has a beautiful feature showcase page.
