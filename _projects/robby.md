@@ -4,7 +4,7 @@ title: robby fisher
 description: final project for intro to robotics class
 img:
 importance: 4
-category: software
+category: hardware
 ---
 
 Every project has a beautiful feature showcase page.
