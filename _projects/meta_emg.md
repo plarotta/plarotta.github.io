@@ -5,7 +5,6 @@ description: meta-learning for EMG classification
 img: assets/img/orthosis.png
 importance: 3
 category: software
-redirect: https://github.com/plarotta/meta-emg
 github: https://github.com/plarotta/meta-emg
 ---
 
