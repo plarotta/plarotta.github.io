@@ -1,7 +1,7 @@
 ---
 layout: page
-title: MIT Medical Device Design
-description: Design of a quick-connect coupling for dialysis
+title: Self-sterilizing fluid connection
+description: MIT medical device design class final project
 img: assets/img/meddev_1.jpeg
 importance: 1
 category: hardware
