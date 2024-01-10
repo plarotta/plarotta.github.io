@@ -1,10 +1,11 @@
 ---
 layout: page
 title: M-EMG
-description: meta-learning for intent inferral
+description: meta-learning for EMG classification
 img: assets/img/1.jpg
 importance: 3
 category: software
+redirect: https://github.com/plarotta/meta-emg
 ---
 
 Every project has a beautiful feature showcase page.
