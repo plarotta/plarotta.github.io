@@ -2,7 +2,7 @@
 layout: page
 title: robby fisher
 description: final project for intro to robotics class
-img:
+img: assets/rob.png
 importance: 4
 category: hardware
 ---
