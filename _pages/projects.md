@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
 description: Some of the highlight projects and internship experiences from undergrad and grad school. 
 nav: true
