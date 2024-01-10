@@ -2,7 +2,7 @@
 layout: page
 title: Self-sterilizing fluid connection
 description: MIT medical device design class final project
-img: assets/img/meddev_1.jpeg
+img: assets/img/ergonomic_pd.jpeg
 importance: 1
 category: hardware
 ---
