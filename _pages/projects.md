@@ -1,12 +1,12 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Some of the highlight projects and internship experiences from undergrad and grad school. 
 nav: true
 nav_order: 3
-display_categories: [hardware, software]
-horizontal: false
+display_categories: [software, hardware]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
