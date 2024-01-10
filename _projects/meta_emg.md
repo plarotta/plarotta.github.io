@@ -6,6 +6,7 @@ img: assets/img/1.jpg
 importance: 3
 category: software
 redirect: https://github.com/plarotta/meta-emg
+github: https://github.com/plarotta/meta-emg
 ---
 
 Every project has a beautiful feature showcase page.
