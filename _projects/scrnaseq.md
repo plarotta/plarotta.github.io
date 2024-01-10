@@ -2,7 +2,7 @@
 layout: page
 title: ML for single-cell RNA seq analysis
 description: using unsupervised learning to identify important genes in pancreatic tumors
-img:
+img: assets/img/rnaseq.jpg
 importance: 3
 category: software
 ---
