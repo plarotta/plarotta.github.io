@@ -1,7 +1,7 @@
 ---
 layout: page
-title: measuring fluid density
-description: my final project for MIT's measurement & instrumentation course
+title: Measuring fluid density with sound
+description: MIT measurement & instrumentation class final project
 img: assets/img/meas&inst.jpg
 importance: 2
 category: hardware
