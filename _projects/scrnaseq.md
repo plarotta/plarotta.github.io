@@ -20,8 +20,11 @@ This was my main research experience from undergrad. In this project I worked on
 
 Specificially, Pancreatic Ductal Adenocarcinoma (PDAC) is the most common type of pancreatic cancer and also happens to be one of the most chemoresistant cancers of all. One of the potential causes for the resilience of these tumors is the microenvironment that evolves at the site. This jungle of fibrotic tissue, immune cells, and cancer cells serves to hamper delivery of drugs to the site, and it also helps to amplify the aberrant cell signaling that recruits more and more cells to the tumor site.
 
-![image](https://github.com/plarotta/plarotta.github.io/assets/20714356/44c9c385-7d40-4e9c-bd4f-4944eefd07b8)
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tme.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 The thesis of this project was that disrupting the cells most responsible for orchestrating the growth and establishment of the tumor microenvironment would make PDAC tumors vulnerable to our best cancer therapies. My part of the project focused on using single-cell RNA sequencing to identify which cells in the tumor were most important for the tumor microenvironment.
 
