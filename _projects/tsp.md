@@ -12,7 +12,8 @@ This project captures some of the main takeaways from the first unit of Columbia
 
   ---
   Skills learned:
-    - Genetic algorithm design
-    - Just-in-time (JIT) compilation for Python code optimization
-    - Numpy
+  -Genetic algorithm design
+  -Just-in-time (JIT) compilation for Python code optimization
+  -Numpy
   ---
+
