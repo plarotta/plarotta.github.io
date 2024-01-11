@@ -7,74 +7,12 @@ importance: 3
 category: software
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This was my main research experience from undergrad. In this project I worked on a collaboration project between the [Lauffenburger Lab](https://dallab.mit.edu/) and the [Aguirre Lab](https://aguirrelab.dana-farber.org/) where single-cell RNA sequencing was being used to unearth vulnerabilities in pancreatic cancer.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Specificially, Pancreatic Ductal Adenocarcinoma (PDAC) is the most common type of pancreatic cancer and also happens to be one of the most chemoresistant cancers of all. One of the potential causes for the resilience of these tumors is the microenvironment that evolves at the site. This jungle of fibrotic tissue, immune cells, and cancer cells serves to hamper delivery of drugs to the site, and it also helps to amplify the aberrant cell signaling that recruits more and more cells to the tumor site.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The thesis of this project was that disrupting the cells most responsible for orchestrating the growth and establishment of the tumor microenvironment would make PDAC tumors vulnerable to our best cancer therapies. My part of the project focused on using single-cell RNA sequencing to identify which cells in the tumor were most important for the tumor microenvironment.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The main contributions of my part of the project were an exploration into a new method for classifying cell type and an IL1 interaction between fibroblasts and tumor cells which always preceded the onset of early tumor progression.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+I presented [this](https://github.com/plarotta/plarotta.github.io/blob/b08cd7bb05edb86faa029a94da273c90a643213a/assets/img/poster_csbc_final.png) poster at an NIH cancer systems biology annual meeting in 2019.
