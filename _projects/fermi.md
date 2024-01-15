@@ -2,79 +2,17 @@
 layout: page
 title: Fermi National Accelerator Lab
 description: My 2 summers working as an automation research intern at FNAL.
-img:
+img: assets/img/fermi_img.jpg
 importance: 1
 category: hardware
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Intro
+As part of the GEM fellowship program, students are matched with employers which in return for tuition sponsorship of the student's graduate program expect students to complete summer internships until graduation. I matched to [Fermilab](https://www.fnal.gov/) and as part of my fellowship program got the opportunity to complete two summer internships at Fermi. Fermi is America's premier particle physics research lab which for a while housed the world's largest, most powerful particle accelerator. While that title goes to CERN now, Fermi is still at the forefront of particle physics research, now focusing on dark matter, dark energy, and stress-testing the standard model of physics.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+I am by no means anything close to a particle physicist, but as an early career engineer I never back away from an opportunity to learn. Fermi drew me because the level of engineering required to execute a lot of their experiments is incredible. During my time at Fermi I was exposed to two central focuses of the lab: radiofrequency cavity assembly, and the mu2e experiment. I was incredibly lucky to have these two experiences because they exposed me to areas at opposite ends of the science stack of Fermi. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Superconductive Radio-frequency Cavities (SRF)
+In my first summer I was an intern under the Applied Physics and Superconducting Technology Division [APS-TD](https://td.fnal.gov/) which focuses on the research and development of superconductive magnets and cavities for general purpose applications. Work from this division has impact across the lab and as well as the broader particle physics community. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Radio-frequency cavities are essential for high-energy physics because they are source of acceleration for particles passing through the accelerator complex. 
