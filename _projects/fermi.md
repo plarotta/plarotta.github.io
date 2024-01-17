@@ -19,6 +19,15 @@ Radio-frequency (RF) cavities are essential for high-energy physics because they
 ![image](https://github.com/plarotta/plarotta.github.io/assets/20714356/cb5f6dfb-138b-46d0-9005-9330158320d9)
 ![image](https://github.com/plarotta/plarotta.github.io/assets/20714356/05416797-147c-4841-867f-90554eebf1cd)
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/hotwheels.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fermi.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 The strength of the electic field produced inside a cavity is ultimately what dictates how strongly particles accelerate through them, and higher the electric field the more energy that is required to opperate the accelerator. The limitation here is the efficiency--power dissipations at strong electric fields can jeopardize the stability of the accelarator and can also simply make the operation infeasible due to the large power requirements. The reason all this is important context is that superconductive RF cavities are orders of magnitude more efficient that traditional cavities, making them essential for the new generation of particle accelerators. With SRF cavities, accelerators have been able to accelerate particle beams to new horizons, which has led to incredible new findings including the Higgs boson. 
 
 ### My project
