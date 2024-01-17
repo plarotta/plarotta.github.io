@@ -16,8 +16,6 @@ I am by no means anything close to a particle physicist, but as an early career 
 In my first summer I was an intern under the Applied Physics and Superconducting Technology Division [APS-TD](https://td.fnal.gov/) which focuses on the research and development of superconductive magnets and cavities for general purpose applications. Work from this division has impact across the lab and as well as the broader particle physics community. 
 
 Radio-frequency (RF) cavities are essential for high-energy physics because they are source of acceleration for particles passing through the accelerator complex. I was always into Hot Wheels sets when younger, so that is the best analogy I have for understanding the role of cavities in particle accelerators: particles can be thought of as the little cars that are moving through the track, and the RF cavities are the stations which propel the cars forward. You can imagine that if you make the track circular the cars will move faster and faster with every lap (neglecting friction effects), and that is exactly the reason why particle accelerators are circular.
-![image](https://github.com/plarotta/plarotta.github.io/assets/20714356/cb5f6dfb-138b-46d0-9005-9330158320d9)
-![image](https://github.com/plarotta/plarotta.github.io/assets/20714356/05416797-147c-4841-867f-90554eebf1cd)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
