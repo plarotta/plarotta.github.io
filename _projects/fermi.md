@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fermi National Accelerator Lab
-description: My 2 summers working as an automation research intern at FNAL.
+description: My 2 summers working as an automation research intern at FNAL. I completed my MS program as a GEM fellow, and my industry sponsor was FNAL.
 img: assets/img/fermi_img.jpg
 importance: 1
 category: hardware
@@ -26,8 +26,19 @@ Radio-frequency (RF) cavities are essential for high-energy physics because they
     </div>
 </div>
 
-The strength of the electic field produced inside a cavity is ultimately what dictates how strongly particles accelerate through them, and higher the electric field the more energy that is required to opperate the accelerator. The limitation here is the efficiency--power dissipations at strong electric fields can jeopardize the stability of the accelarator and can also simply make the operation infeasible due to the large power requirements. The reason all this is important context is that superconductive RF cavities are orders of magnitude more efficient that traditional cavities, making them essential for the new generation of particle accelerators. With SRF cavities, accelerators have been able to accelerate particle beams to new horizons, which has led to incredible new findings including the Higgs boson. 
+The strength of the electic field produced inside a cavity is ultimately what dictates how strongly particles accelerate through them, and higher the electric field the more energy that is required to opperate the accelerator. The limitation here is efficiency--power dissipations at strong electric fields can jeopardize the stability of the accelarator and can also simply make the operation infeasible due to the large power requirements. The reason all this is important context is that superconductive RF cavities are orders of magnitude more efficient that traditional cavities, making them essential for the new generation of particle accelerators. With SRF cavities, accelerators have been able to accelerate particle beams to new horizons, which has led to incredible new findings including the Higgs boson. 
 
 ### My project
 SRF cavities are chained together into "strings", but this process needs to happen with ultimate precision and the utmost care for contamination because contaminants can very easily compromise the cavity's performance and can lead to beam instability. This process is currently done by hand, and due to rising demand for SRF cavity strings, Fermi along with other institutions is interested in exploring ways to automate this process. My summer project sought to do requirements gathering for potential automation cells, and I came up with a high-level idea of using a stewart platform for cavity alignment. My main deliverables of this summer were a presentation outlining the engineering requirements for an automation system given all the input I received from lab scientists and engineers, and a research poster which I presented at a lab-wide symposium. My poster can be found [here](https://lss.fnal.gov/archive/2022/poster/fermilab-poster-22-146-student-td.pdf).
+
+## Mu2e experiment
+My second summer I was an intern under the Accelerator Directorate [AD](https://ad.fnal.gov/) working on target systems. Several of the flagships experiments going on at the lab at the moment fire a beam of particles into a static target. This is an engineer's simplification, so please take it with a grain of salt.
+
+Mu2e is an experiment looking to study the decay of muons into electrons to determine if it conflicts with the predictions of the standard model. If you are interested in reading more into the physics of this experiment, I recommend checking this write-up on Charged Lepton Flavor Violation [CLFV](https://indico.cern.ch/event/452998/contributions/2184888/attachments/1306687/1958605/PASCOScLFV_Bernstein.pdf). Automation is relevant in mu2e and other experiments involving targets because many times when a high-energy particle beam is fired at a target, ionizing radiation is produced creating a hazard for scientists and engineers involved in the experiment. For this reason, having automation systems that can do handling of the targets and other compenents of the experiment is highly valuable. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mu2edisk.jpg" title="example image" class="img-fluid rounded z-depth-1" caption="sample caption by pedro"%}
+    </div>
+</div>
 
