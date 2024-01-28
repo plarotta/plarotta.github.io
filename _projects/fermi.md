@@ -38,7 +38,12 @@ Mu2e is an experiment looking to study the decay of muons into electrons to dete
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mu2edisk.jpg" title="example image" class="img-fluid rounded z-depth-1" caption="sample caption by pedro"%}
+        {% include figure.html path="assets/img/mu2edisk.jpg" title="example image" class="img-fluid rounded z-depth-1" caption="a particle beam is fired at the tungsten target on the left (red dot). The products of this collision are directed through the S-curve and the vessel on the right into the detector."%}
     </div>
 </div>
+
+### My project
+The remote handling machines of mu2e serve the primary purpose of replacing the static target of the experiment. This target exchange needs to happen roughly once a year, therefore precision is of utmost importance. The first objective of my summer project was to design fixtures to make the installation of the different end effectors of the robot arm easier. The second objective of my summer project was to write firmware for the cart-door system. This system includes a 2-ton radiation-shielding door which controls access to the experiment room during target exchanges, and it also includes transport carts for moving the remote handling machines into and out of the experiment room. This second project was especially tricky because all of the motors and motor drives offered different communication protocols (Modbus RTU, ASCII, and TCP), and the central PLC we needed to control this system had its own communication requirements. Ultimately, I was able to identify a suitable communication protocol for each component, and I integrated the drives into a benchtop system which I created PLC programs for to demo its functionality. My poster can be found [here](https://lss.fnal.gov/archive/2023/poster/fermilab-poster-23-214-student.pdf).
+
+
 
