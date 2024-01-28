@@ -22,7 +22,7 @@ Radio-frequency (RF) cavities are essential for high-energy physics because they
         {% include figure.html path="assets/img/hotwheels.png" title="example image" class="img-fluid rounded z-depth-1" caption="hot wheels toy car track" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fermi.png" title="example image" class="img-fluid rounded z-depth-1" caption="One of the rings of the accelerator at FNAL.%}
+        {% include figure.html path="assets/img/fermi.png" title="example image" class="img-fluid rounded z-depth-1" caption="One of the rings of the accelerator at FNAL."%}
     </div>
 </div>
 
