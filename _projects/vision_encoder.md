@@ -23,6 +23,4 @@ Next we build the model architecture and defined the preprocessing workflow for 
 
 Finally we trained the model on the simulated data, and our best model achieved low prediction error on the test dataset.
 
-Lastly, we ran another short experiment in simulation to see how well our model would predict the arm state as the arm executes a trajectory in real time, and we found the prediction accuracy to be higher that expected.
-
-
+Lastly, we ran another short experiment in simulation to see how well our model would predict the arm state as the arm executes a trajectory in real time, and we found the prediction accuracy to be higher that expected. You can find our report [here](https://github.com/plarotta/plarotta.github.io/blob/master/assets/pdf/DLCV_Final_Project_Report-2%20(1).pdf).
