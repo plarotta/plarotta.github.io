@@ -9,7 +9,6 @@ profile:
   image: profile_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="text-align:center">+1(646)-232-2931</p>
     <p style="text-align:center">plarottaone2@gmail.com</p>
     <p style="text-align:center">📍NYC</p>
 
