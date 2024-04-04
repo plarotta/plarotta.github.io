@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS student @ <a href='https://www.engineering.columbia.edu/'>Columbia Engineering</a>. Formerly @ <a href='https://www.mit.edu/'>MIT</a> & <a href='https://www.octant.bio/'>Octant Bio</a>.     
+subtitle: MS student @ <a href='https://www.engineering.columbia.edu/'>Columbia Engineering</a>. Formerly @ <a href='https://www.mit.edu/'>MIT</a> & <a href='https://www.octant.bio/'>Octant Bio</a>.    
 
 profile:
   align: right
   image: profile_pic.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
+  more_info: >
     <p style="text-align:center">+1(646)-232-2931</p>
     <p style="text-align:center">plarottaone2@gmail.com</p>
     <p style="text-align:center">📍NYC</p>
