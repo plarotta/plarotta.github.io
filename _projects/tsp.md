@@ -18,7 +18,7 @@ This project captures some of the main takeaways from the first unit of Columbia
     -Numpy
     ---
 
-# Problem description
+## Problem description
 
 <div class="row">
     <div class="col-sm">
@@ -33,4 +33,7 @@ The Traveling Salesperson Problem (TSP) is a classic optimization puzzle where t
 
 The goal is thus to find an ordering in which to traverse a list of cities to minimize the total distance traveled. 
 
-
+## My contributions
+- Complete implementation of the genetic algorithm as well as its operators
+- Development of testing suite for algorithm using a toy problem
+- Algorithm optimization through the use of the Numba python module
