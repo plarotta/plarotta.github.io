@@ -81,19 +81,20 @@ The challenge dataset contains 1000 points scattered in a much less structured p
 LICENSE
 README.md
 data
-   |-- circle10.txt
-   |-- circle50.txt
-   |-- circle500.txt
-   |-- tsp.txt
-easy_gen.py
+   |-- easy.txt
+   |-- medium.txt
+   |-- hard.txt
+   |-- challenge.txt
 environment.yml
-genetic-traveling-salesperson
+gene_tsp
    |-- __init__.py
    |-- evo_base.py
    |-- evo_tsp.py
    |-- genetic_algorithm.py
    |-- gui.py
    |-- utilities.py
+train.py
+train_gui.py
 ```
 {% endraw %}
 ## Install
