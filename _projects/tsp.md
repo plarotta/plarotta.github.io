@@ -55,6 +55,12 @@ The first three datasets are designed such that the x and y coodinates of the ci
 
 The challenge dataset contains 1000 points scattered in a much less structured pattern.
 
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/tsp_challenge_view.png" title="tsp" class="img-fluid rounded z-depth-1" caption="3 circle datasets used for building and debugging the GA."%}
+        </div>
+</div>
+
 ## Results
 
 
@@ -66,4 +72,48 @@ The challenge dataset contains 1000 points scattered in a much less structured p
         {% include figure.html path="assets/img/tsp50circle_gif.gif" title="ga" class="img-fluid rounded z-depth-1" caption="Visualization of GA training over medium problem"%}
     </div>
 </div>
+
+## Repo structure
+
+'''
+.gitignore
+LICENSE
+README.md
+data
+   |-- circle10.txt
+   |-- circle50.txt
+   |-- circle500.txt
+   |-- tsp.txt
+easy_gen.py
+environment.yml
+genetic-traveling-salesperson
+   |-- __init__.py
+   |-- evo_base.py
+   |-- evo_tsp.py
+   |-- genetic_algorithm.py
+   |-- gui.py
+   |-- utilities.py
+'''
+
+## Install
+
+Create a conda (or mamba) environment with Python 3.10:
+
+'''conda create -n genetsp python=3.10'''
+
+Activate environment:
+
+'''conda activate genetsp'''
+
+Install dependencies:
+
+'''conda install numpy numba tqdm wandb matplotlib pyqt scipy'''
+
+## Run 
+
+From the root directory:
+
+'''python gene_tsp/genetic_algorithm.py''' 
+
+
 
