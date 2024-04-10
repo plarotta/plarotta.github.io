@@ -75,7 +75,8 @@ The challenge dataset contains 1000 points scattered in a much less structured p
 
 ## Repo structure
 
-'''
+{% raw %}
+```
 .gitignore
 LICENSE
 README.md
@@ -93,27 +94,27 @@ genetic-traveling-salesperson
    |-- genetic_algorithm.py
    |-- gui.py
    |-- utilities.py
-'''
-
+```
+{% endraw %}
 ## Install
 
 Create a conda (or mamba) environment with Python 3.10:
 
-'''conda create -n genetsp python=3.10'''
+```conda create -n genetsp python=3.10```
 
 Activate environment:
 
-'''conda activate genetsp'''
+```conda activate genetsp```
 
 Install dependencies:
 
-'''conda install numpy numba tqdm wandb matplotlib pyqt scipy'''
+```conda install numpy numba tqdm wandb matplotlib pyqt scipy```
 
 ## Run 
 
 From the root directory:
 
-'''python gene_tsp/genetic_algorithm.py''' 
+```python gene_tsp/genetic_algorithm.py```
 
 
 
