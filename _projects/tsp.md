@@ -46,6 +46,13 @@ The evaluation of the GA was performed on 4 datasets, 3 of which were primarily 
 
 The first three datasets are designed such that the x and y coodinates of the cities fall along the circumference of a unit circle. These datasets were designed in this way since we know that the shortest path through the cities will be along the perimeter of the circle, and the length of the path should be very close to 2pi (~6.28). The three datasets are in increasing difficulty, with the easiest containing only 10 cities, the medium containing 50, and the hard one containing 500 cities.
 
+
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/tsp_circle_view.png" title="tsp" class="img-fluid rounded z-depth-1" caption="3 circle datasets used for building and debugging the GA."%}
+        </div>
+</div>
+
 The challenge dataset contains 1000 points scattered in a much less structured pattern.
 
 ## Results
@@ -53,10 +60,10 @@ The challenge dataset contains 1000 points scattered in a much less structured p
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/tsp10circle_gif.gif" title="tsp" class="img-fluid rounded z-depth-1" caption="Visualization of GA over simple problem"%}
+        {% include figure.html path="assets/img/tsp10circle_gif.gif" title="tsp" class="img-fluid rounded z-depth-1" caption="Visualization of GA training over simple problem"%}
         </div>
         <div class="col-sm">
-        {% include figure.html path="assets/img/tsp50circle_gif.gif" title="ga" class="img-fluid rounded z-depth-1" caption="Visualization of GA over medium problem"%}
+        {% include figure.html path="assets/img/tsp50circle_gif.gif" title="ga" class="img-fluid rounded z-depth-1" caption="Visualization of GA training over medium problem"%}
     </div>
 </div>
 
