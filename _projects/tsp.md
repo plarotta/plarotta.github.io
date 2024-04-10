@@ -112,9 +112,12 @@ Install dependencies:
 
 ## Run 
 
-From the root directory:
+To run the GA wih GUI, cd to the root of this repo and run:
 
-```python gene_tsp/genetic_algorithm.py```
+```python train_gui.py```
 
+To run the GA wihout the GUI, cd to the root of this repo and run:
+
+```python train.py```
 
 
