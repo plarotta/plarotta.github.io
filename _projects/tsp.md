@@ -33,7 +33,7 @@ This project captures some of the main takeaways from the first unit of Columbia
 
 The **Traveling Salesperson Problem (TSP)** is a classic optimization puzzle where the goal is to find the **most efficient route** that visits a set of cities exactly once and returns to the starting point. TSP is notoriously challenging because the **number of possible routes grows exponentially** with the number of cities. Solving the TSP efficiently is essential in various fields, such as logistics, transportation planning, and circuit design, making it a **fundamental problem** in computer science and optimization. 
 
-Genetic algorithms are a class of optimization algorithms inspired by the principles of natural selection and genetics. These algorithms draw inspiration from the process of evolution observed in biology to solve complex problems and search for optimal solutions. In TSP, genetic algorithms are good candidates for approximating the shortest path due to their ability to handle highly complex solution manifolds such as this one. 
+Genetic algorithms (GA) are a class of optimization algorithms inspired by the principles of **natural selection and genetics**. These algorithms draw inspiration from the process of evolution observed in biology to solve complex problems and search for optimal solutions. In TSP, genetic algorithms are good candidates for approximating the shortest path due to their ability to **handle highly complex solution manifolds** such as this one. 
 
 ## My contributions
 - Complete implementation of the genetic algorithm as well as its operators in object-oriented Python
@@ -41,7 +41,15 @@ Genetic algorithms are a class of optimization algorithms inspired by the princi
 - Algorithm optimization through the use of the Numba python module
 - GUI development for real-time visualization of evolutionary process
 
+## Data 
+The evaluation of the GA was performed on 4 datasets, 3 of which were primarily used for debugging. 
+
+The first three datasets are designed such that the x and y coodinates of the cities fall along the circumference of a unit circle. These datasets were designed in this way since we know that the shortest path through the cities will be along the perimeter of the circle, and the length of the path should be very close to 2pi (~6.28). The three datasets are in increasing difficulty, with the easiest containing only 10 cities, the medium containing 50, and the hard one containing 500 cities.
+
+The challenge dataset contains 1000 points scattered in a much less structured pattern.
+
 ## Results
+
 
 <div class="row">
     <div class="col-sm">
