@@ -43,5 +43,12 @@ Genetic algorithms are a class of optimization algorithms inspired by the princi
 
 ## Results
 
-
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/tsp10circle_gif.gif" title="tsp" class="img-fluid rounded z-depth-1" caption="Visualization of GA over simple problem"%}
+        </div>
+        <div class="col-sm">
+        {% include figure.html path="assets/img/tsp50circle_gif.gif" title="ga" class="img-fluid rounded z-depth-1" caption="Visualization of GA over medium problem"%}
+    </div>
+</div>
 
