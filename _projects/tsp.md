@@ -16,6 +16,8 @@ This project captures some of the main takeaways from the first unit of Columbia
     -Genetic algorithm design
     -Just-in-time (JIT) compilation for Python code optimization
     -Numpy
+    -PyQt
+    -Multi-threading
     ---
 
 ## Problem description
@@ -35,5 +37,8 @@ The goal is thus to find an ordering in which to traverse a list of cities to mi
 
 ## My contributions
 - Complete implementation of the genetic algorithm as well as its operators
-- Development of testing suite for algorithm using a toy problem
+- Development of small testing suite 
 - Algorithm optimization through the use of the Numba python module
+
+## Results
+
