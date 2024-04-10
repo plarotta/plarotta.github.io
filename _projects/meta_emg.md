@@ -8,7 +8,6 @@ category: software
 github: https://github.com/plarotta/meta-emg
 ---
 
-Note: this is ongoing work ⚠️
 
 Meta learning is a machine learning paradigm for training models to adapt faster to new tasks. In this project I am trying to build a meta learning framework for the task of EMG classification so that we can more efficiently leverage historical data when we train a model on a new patient or functional task. Repo can be found [here](https://github.com/plarotta/meta-emg).
 
