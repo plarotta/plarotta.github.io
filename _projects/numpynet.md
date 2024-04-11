@@ -30,5 +30,14 @@ In this project I set out to become familiar with the under-the-hood of multi-la
 - Evaluation on toy dataset and comparison with PyTorch
 
 
+## Data
+A small dataset was generated to debug my implementation. The dataset is relative easy classification task consisting of 5000 2-feature observations belonging to 3 separate classes. The data is displayed below:
+
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/numpynet_test_data.png" title="tsp" class="img-fluid rounded z-depth-1" caption="3 circle datasets used for building and debugging the GA."%}
+        </div>
+</div>
+
 
 
