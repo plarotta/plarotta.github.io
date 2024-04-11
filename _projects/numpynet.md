@@ -16,7 +16,6 @@ This project captures a learning exploration into the fundamentals of deep learn
     - Numpy
     - Backpropagation
     - PyTorch
-    - Numba
     ---
 
 
@@ -28,7 +27,7 @@ In this project I set out to become familiar with the under-the-hood of multi-la
 ## My contributions
 - Class definitions used for creating models in object-oriented Python
 - Full implementations of feedforward and backpropagation operations
-- Performance speedup with just-in-time compilation through Numba
+- Evaluation on toy dataset and comparison with PyTorch
 
 
 
