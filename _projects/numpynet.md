@@ -35,7 +35,15 @@ A small dataset was generated to debug my implementation. The dataset is relativ
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/numpynet_test_data.png" title="tsp" class="img-fluid rounded z-depth-1" caption="3 circle datasets used for building and debugging the GA."%}
+        {% include figure.html path="assets/img/numpy_test_data.png" title="tsp" class="img-fluid rounded z-depth-1"%}
+        </div>
+</div>
+
+## Results
+
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/numpynet_res.png" title="tsp" class="img-fluid rounded z-depth-1" %}
         </div>
 </div>
 
