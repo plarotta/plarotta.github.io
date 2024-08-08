@@ -53,3 +53,5 @@ I stand by my prototype-first approach for this specific build given the uncerta
         {% include figure.html path="assets/img/roxy_slide.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8Fo94PJ5cQAAkPCZQfh64hnAbd13wBHo6kL_IRtuTuJrSmG8Q5aDLu0LxPh3-FixkgYJ4U8Y-Hx2Z/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
