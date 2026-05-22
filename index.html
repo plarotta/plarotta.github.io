@@ -3,270 +3,182 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pedro La Rotta — Robotics &amp; Machine Learning</title>
-  <meta name="description" content="Pedro La Rotta — robotics and machine learning. MS at Columbia (ROAM Lab), GEM Fellow at Fermilab. Building robots that learn." />
+  <title>Pedro La Rotta</title>
+  <meta name="description" content="Pedro La Rotta — robotics and machine learning. MS at Columbia (ROAM Lab), GEM Fellow at Fermilab." />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Pedro La Rotta — Robotics & Machine Learning" />
-  <meta property="og:description" content="Robotics + ML. Columbia ROAM Lab, GEM Fellow at Fermilab. Building robots that learn." />
+  <meta property="og:title" content="Pedro La Rotta" />
+  <meta property="og:description" content="Robotics + ML. Columbia ROAM Lab, GEM Fellow at Fermilab." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://plarotta.github.io" />
-  <meta property="og:image" content="https://plarotta.github.io/assets/img/profile_pic.jpeg" />
 
-  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🤖&lt;/text&gt;&lt;/svg&gt;" />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;👋&lt;/text&gt;&lt;/svg&gt;" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Fraunces:ital,opsz,wght@1,9..144,400&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    // Set theme before paint to avoid flash.
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
 </head>
-<body>
-  <div class="grid-bg" aria-hidden="true"></div>
-  <div class="glow" aria-hidden="true"></div>
-
-  <header class="nav">
-    <a class="brand" href="#top">
-      <span class="brand-mark">PLR</span>
-      <span class="brand-dot"></span>
-    </a>
-    <nav class="nav-links">
-      <a href="#research">research</a>
-      <a href="#work">work</a>
-      <a href="#contact">contact</a>
-    </nav>
+<body id="top">
+  <header class="topbar">
+    <div class="tb-inner">
+      <a class="tb-brand" href="#top">PLR</a>
+      <nav class="tb-nav">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <button id="theme" class="theme-toggle" aria-label="Toggle color theme" title="Toggle theme"></button>
+    </div>
   </header>
 
-  <main id="top">
+  <main>
+    <header class="intro">
+      <h1>Pedro La&nbsp;Rotta</h1>
+      <p class="role">Robotics&nbsp;+ machine learning</p>
 
-    <!-- HERO -->
-    <section class="hero">
-      <p class="kicker reveal">// robotics · machine learning · hardware</p>
-      <h1 class="reveal">Pedro<br>La&nbsp;Rotta</h1>
-      <p class="lede reveal">
-        I build robots that learn — and the learning systems that
-        get them there faster.
+      <p class="lede">
+        MS student at <a href="https://www.engineering.columbia.edu/" target="_blank" rel="noopener">Columbia</a>,
+        researching in the <a href="https://roam.me.columbia.edu/" target="_blank" rel="noopener">ROAM&nbsp;Lab</a>
+        with <a href="https://roam.me.columbia.edu/people/matei-ciocarlie" target="_blank" rel="noopener">Matei&nbsp;Ciocarlie</a>,
+        and a GEM Fellow sponsored by <a href="https://www.fnal.gov/" target="_blank" rel="noopener">Fermilab</a>.
+        Previously at <a href="https://www.mit.edu/" target="_blank" rel="noopener">MIT</a>
+        and <a href="https://www.octant.bio/" target="_blank" rel="noopener">Octant&nbsp;Bio</a>.
+        I work on medical robotics and robot learning — lately, on better
+        architectures for memory and planning. From Bogotá, now in New York.
       </p>
 
-      <div class="bio reveal">
-        <p>
-          MS student at <a href="https://www.engineering.columbia.edu/" target="_blank" rel="noopener">Columbia</a>,
-          researching in the <a href="https://roam.me.columbia.edu/" target="_blank" rel="noopener">ROAM Lab</a>
-          with <a href="https://roam.me.columbia.edu/people/matei-ciocarlie" target="_blank" rel="noopener">Matei Ciocarlie</a>.
-          GEM Fellow sponsored by <a href="https://www.fnal.gov/" target="_blank" rel="noopener">Fermilab</a>.
-          Previously at <a href="https://www.mit.edu/" target="_blank" rel="noopener">MIT</a>
-          and <a href="https://www.octant.bio/" target="_blank" rel="noopener">Octant Bio</a>.
-        </p>
-        <p>
-          I work at the intersection of medical robotics and robot learning, and lately
-          spend most nights chasing better architectures for memory and planning. From
-          Bogotá 🇨🇴, now in New York.
-        </p>
-      </div>
+      <p class="links">
+        <a href="https://github.com/plarotta" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/plarotta" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:plarottaone2@gmail.com">Email</a>
+      </p>
+    </header>
 
-      <ul class="meta reveal">
-        <li><span class="meta-k">focus</span> robot learning · medical robotics</li>
-        <li><span class="meta-k">lab</span> Columbia ROAM</li>
-        <li><span class="meta-k">based</span> New York, NY</li>
-      </ul>
-
-      <div class="links reveal">
-        <a href="https://github.com/plarotta" target="_blank" rel="noopener">GitHub ↗</a>
-        <a href="https://www.linkedin.com/in/plarotta" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a href="https://scholar.google.com/citations?user=&hl=en" target="_blank" rel="noopener" id="scholar-link" hidden>Scholar ↗</a>
-        <a href="mailto:plarottaone2@gmail.com">Email ↗</a>
-      </div>
-    </section>
-
-    <!-- RESEARCH -->
-    <section id="research" class="block">
-      <div class="block-head reveal">
-        <span class="block-idx">01</span>
-        <h2>Research</h2>
-        <span class="block-rule"></span>
-      </div>
-
-      <div class="research-grid">
-        <article class="paper reveal">
-          <a class="paper-media" href="https://arxiv.org/abs/2403.13147" target="_blank" rel="noopener">
-            <img src="assets/img/metaemg_preview.png" alt="MetaEMG meta-learning for EMG intent inferral" loading="lazy" />
+    <section class="group" id="research">
+      <h2>Research</h2>
+      <ul class="list">
+        <li>
+          <a class="row" href="https://arxiv.org/abs/2403.13147" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">Meta-Learning for Fast Adaptation in Intent Inferral on a Robotic Hand Orthosis</span>
+              <span class="row-desc">Few-shot MAML for surface-EMG intent classification that recalibrates from a handful of examples per session.</span>
+            </span>
+            <span class="row-meta">IROS&nbsp;’24</span>
           </a>
-          <div class="paper-body">
-            <span class="venue">IEEE/RSJ IROS 2024 · first author</span>
-            <h3>Meta-Learning for Fast Adaptation in Intent Inferral on a Robotic Hand Orthosis for Stroke</h3>
-            <p>
-              MyHand, a tendon-driven hand orthosis, is controlled by surface-EMG intent
-              signals that drift between sessions and users. I framed calibration as a
-              few-shot problem and applied MAML to learn high-capacity classifiers that
-              adapt from a handful of examples at the start of each use.
-            </p>
-            <div class="paper-links">
-              <a href="https://arxiv.org/abs/2403.13147" target="_blank" rel="noopener">Paper ↗</a>
-              <a href="https://github.com/plarotta/meta-emg" target="_blank" rel="noopener">Code ↗</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="paper reveal">
-          <div class="paper-body">
-            <span class="venue">arXiv 2024 · co-author</span>
-            <h3>ChatEMG: Synthetic Data Generation to Control a Robotic Hand Orthosis for Stroke</h3>
-            <p>
-              An autoregressive generative model for surface-EMG signals, used to synthesize
-              data that bootstraps intent classifiers when real recordings are scarce —
-              attacking the same data-scarcity wall from the generative side.
-            </p>
-            <div class="paper-links">
-              <a href="https://arxiv.org/abs/2406.12123" target="_blank" rel="noopener">Paper ↗</a>
-            </div>
-          </div>
-        </article>
-      </div>
+        </li>
+        <li>
+          <a class="row" href="https://arxiv.org/abs/2406.12123" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">ChatEMG: Synthetic Data Generation to Control a Robotic Hand Orthosis</span>
+              <span class="row-desc">A generative model for EMG signals that bootstraps intent classifiers when real data is scarce.</span>
+            </span>
+            <span class="row-meta">arXiv&nbsp;’24</span>
+          </a>
+        </li>
+      </ul>
     </section>
 
-    <!-- WORK / PROJECTS -->
-    <section id="work" class="block">
-      <div class="block-head reveal">
-        <span class="block-idx">02</span>
-        <h2>Recent work</h2>
-        <span class="block-rule"></span>
-      </div>
-
-      <div class="projects">
-        <a class="proj reveal" href="https://github.com/plarotta/prism" target="_blank" rel="noopener">
-          <span class="proj-idx">01</span>
-          <div class="proj-main">
-            <h3>prism</h3>
-            <p>A sub-quadratic embedding model built on bidirectional recurrence.</p>
-          </div>
-          <span class="proj-tag">Python</span>
-          <span class="proj-arrow">↗</span>
-        </a>
-
-        <a class="proj reveal" href="https://github.com/plarotta/dreamformer" target="_blank" rel="noopener">
-          <span class="proj-idx">02</span>
-          <div class="proj-main">
-            <h3>dreamformer</h3>
-            <p>Forcing explicit long- and short-term memory structure into a transformer.</p>
-          </div>
-          <span class="proj-tag">Python</span>
-          <span class="proj-arrow">↗</span>
-        </a>
-
-        <a class="proj reveal" href="https://github.com/plarotta/fca" target="_blank" rel="noopener">
-          <span class="proj-idx">03</span>
-          <div class="proj-main">
-            <h3>fca</h3>
-            <p>An explicit “future belief” branch added to a transformer to improve planning.</p>
-          </div>
-          <span class="proj-tag">Python</span>
-          <span class="proj-arrow">↗</span>
-        </a>
-
-        <a class="proj reveal" href="https://github.com/plarotta/agentbus" target="_blank" rel="noopener">
-          <span class="proj-idx">04</span>
-          <div class="proj-main">
-            <h3>agentbus</h3>
-            <p>A ROS-like harness for orchestrating multi-agent systems.</p>
-          </div>
-          <span class="proj-tag">Python</span>
-          <span class="proj-arrow">↗</span>
-        </a>
-
-        <a class="proj reveal" href="https://github.com/plarotta/kiki" target="_blank" rel="noopener">
-          <span class="proj-idx">05</span>
-          <div class="proj-main">
-            <h3>kiki</h3>
-            <p>A personal memory unit for your agents.</p>
-          </div>
-          <span class="proj-tag">Shell</span>
-          <span class="proj-arrow">↗</span>
-        </a>
-
-        <a class="proj reveal" href="https://github.com/plarotta/arxiv-digest" target="_blank" rel="noopener">
-          <span class="proj-idx">06</span>
-          <div class="proj-main">
-            <h3>arxiv-digest</h3>
-            <p>A daily digest of the top 15 papers in ML, NLP, and robotics.</p>
-          </div>
-          <span class="proj-tag">Python</span>
-          <span class="proj-arrow">↗</span>
-        </a>
-
-        <a class="proj reveal" href="https://github.com/plarotta/NumpyNet" target="_blank" rel="noopener">
-          <span class="proj-idx">07</span>
-          <div class="proj-main">
-            <h3>NumpyNet</h3>
-            <p>A PyTorch-free deep learning framework, built from scratch in NumPy.</p>
-          </div>
-          <span class="proj-tag">Python</span>
-          <span class="proj-arrow">↗</span>
-        </a>
-
-        <a class="proj reveal" href="https://github.com/plarotta/genetic-traveling-salesperson" target="_blank" rel="noopener">
-          <span class="proj-idx">08</span>
-          <div class="proj-main">
-            <h3>GeneTSP</h3>
-            <p>Evolving solutions to the traveling salesperson problem with genetic algorithms.</p>
-          </div>
-          <span class="proj-tag">Python</span>
-          <span class="proj-arrow">↗</span>
-        </a>
-      </div>
-
-      <a class="more reveal" href="https://github.com/plarotta?tab=repositories" target="_blank" rel="noopener">
-        all repositories on GitHub ↗
-      </a>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="block contact">
-      <div class="block-head reveal">
-        <span class="block-idx">03</span>
-        <h2>Contact</h2>
-        <span class="block-rule"></span>
-      </div>
-      <p class="reveal contact-lede">
-        Always happy to talk robots, learning systems, or research. Reach out
-        over email or LinkedIn.
-      </p>
-      <div class="links reveal">
-        <a href="mailto:plarottaone2@gmail.com">plarottaone2@gmail.com ↗</a>
-        <a href="https://www.linkedin.com/in/plarotta" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a href="https://github.com/plarotta" target="_blank" rel="noopener">GitHub ↗</a>
-      </div>
+    <section class="group" id="projects">
+      <h2>Projects</h2>
+      <ul class="list">
+        <li>
+          <a class="row" href="https://github.com/plarotta/prism" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">prism</span>
+              <span class="row-desc">A sub-quadratic embedding model built on bidirectional recurrence.</span>
+            </span>
+            <span class="row-meta">Python</span>
+          </a>
+        </li>
+        <li>
+          <a class="row" href="https://github.com/plarotta/dreamformer" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">dreamformer</span>
+              <span class="row-desc">Forcing explicit long- and short-term memory structure into a transformer.</span>
+            </span>
+            <span class="row-meta">Python</span>
+          </a>
+        </li>
+        <li>
+          <a class="row" href="https://github.com/plarotta/fca" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">fca</span>
+              <span class="row-desc">An explicit “future belief” branch added to a transformer to improve planning.</span>
+            </span>
+            <span class="row-meta">Python</span>
+          </a>
+        </li>
+        <li>
+          <a class="row" href="https://github.com/plarotta/agentbus" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">agentbus</span>
+              <span class="row-desc">A ROS-like harness for orchestrating multi-agent systems.</span>
+            </span>
+            <span class="row-meta">Python</span>
+          </a>
+        </li>
+        <li>
+          <a class="row" href="https://github.com/plarotta/kiki" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">kiki</span>
+              <span class="row-desc">A personal memory unit for your agents.</span>
+            </span>
+            <span class="row-meta">Shell</span>
+          </a>
+        </li>
+        <li>
+          <a class="row" href="https://github.com/plarotta/arxiv-digest" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">arxiv-digest</span>
+              <span class="row-desc">A daily digest of the top papers in ML, NLP, and robotics.</span>
+            </span>
+            <span class="row-meta">Python</span>
+          </a>
+        </li>
+        <li>
+          <a class="row" href="https://github.com/plarotta/NumpyNet" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">NumpyNet</span>
+              <span class="row-desc">A PyTorch-free deep learning framework, built from scratch in NumPy.</span>
+            </span>
+            <span class="row-meta">Python</span>
+          </a>
+        </li>
+        <li>
+          <a class="row" href="https://github.com/plarotta/genetic-traveling-salesperson" target="_blank" rel="noopener">
+            <span class="row-main">
+              <span class="row-title">GeneTSP</span>
+              <span class="row-desc">Evolving solutions to the traveling salesperson problem with genetic algorithms.</span>
+            </span>
+            <span class="row-meta">Python</span>
+          </a>
+        </li>
+      </ul>
+      <a class="more" href="https://github.com/plarotta?tab=repositories" target="_blank" rel="noopener">More on GitHub →</a>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer>
     <span>© <span id="year"></span> Pedro La Rotta</span>
-    <span class="footer-note">built from scratch · New York</span>
   </footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Scroll-reveal
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) {
-          e.target.classList.add('in');
-          io.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    document.querySelectorAll('.reveal').forEach((el, i) => {
-      el.style.setProperty('--d', (i % 6) * 60 + 'ms');
-      io.observe(el);
+    var btn = document.getElementById('theme');
+    btn.addEventListener('click', function () {
+      var next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem('theme', next);
     });
-
-    // Glow follows cursor on desktop
-    const glow = document.querySelector('.glow');
-    if (matchMedia('(pointer:fine)').matches) {
-      addEventListener('pointermove', (e) => {
-        glow.style.transform = `translate(${e.clientX - 300}px, ${e.clientY - 300}px)`;
-      });
-    }
   </script>
 </body>
 </html>
