@@ -182,6 +182,14 @@ h1 {
   line-height: 1.5;
 }
 
+/* static rows (experience) — no link affordances */
+.row--static { cursor: default; }
+.row--static:hover { background: transparent; }
+.row--static:hover::before { opacity: 0; transform: scaleY(0.4); }
+.row--static:hover .row-title { color: var(--text); }
+.row--static .row-title::after { content: none; }
+.at { color: var(--muted); font-weight: 400; }
+
 .row-meta {
   flex-shrink: 0;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
