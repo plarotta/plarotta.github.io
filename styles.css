@@ -209,6 +209,58 @@ h1 {
 }
 .more:hover { color: var(--accent); transform: translateX(3px); }
 
+/* ---- Robot arm (corner widget, opt-in) ---- */
+#robot {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 300px;
+  z-index: 30;
+  pointer-events: none;   /* clicks pass through except the toggle */
+  user-select: none;
+}
+#arm {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;   /* arm is tracked via window listeners */
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+#robot.active #arm { opacity: 1; }
+
+.arm-seg   { stroke: var(--text); stroke-width: 6; stroke-linecap: round; }
+.arm-joint { fill: var(--bg); stroke: var(--text); stroke-width: 3; }
+.arm-grip  { stroke: var(--accent); stroke-width: 5; stroke-linecap: round; }
+
+#robot-toggle {
+  position: absolute;
+  right: 22px;
+  bottom: 22px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: color 0.2s, border-color 0.2s, transform 0.2s, background 0.2s;
+}
+#robot-toggle:hover { color: var(--accent); border-color: var(--accent); transform: translateY(-2px); }
+#robot.active #robot-toggle { color: var(--accent); border-color: var(--accent); font-size: 15px; }
+
+@media (max-width: 540px) {
+  #robot { width: 220px; height: 220px; }
+}
+
 /* ---- Footer ---- */
 footer {
   max-width: 640px;

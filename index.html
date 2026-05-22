@@ -80,7 +80,7 @@
               <span class="row-title">Machine Learning Engineer <span class="at">· dMetrics</span></span>
               <span class="row-desc">NLP systems.</span>
             </span>
-            <span class="row-meta">2025</span>
+            <span class="row-meta">2024–25</span>
           </div>
         </li>
         <li>
@@ -135,12 +135,12 @@
           </a>
         </li>
         <li>
-          <a class="row" href="https://arxiv.org/abs/2406.12123" target="_blank" rel="noopener">
+          <a class="row" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11661792/" target="_blank" rel="noopener">
             <span class="row-main">
               <span class="row-title">ChatEMG: Synthetic Data Generation to Control a Robotic Hand Orthosis</span>
               <span class="row-desc">A generative model for EMG signals that bootstraps intent classifiers when real data is scarce.</span>
             </span>
-            <span class="row-meta">arXiv&nbsp;’24</span>
+            <span class="row-meta">RA-L&nbsp;’24</span>
           </a>
         </li>
       </ul>
@@ -226,6 +226,18 @@
     </section>
   </main>
 
+  <div id="robot">
+    <svg id="arm" viewBox="0 0 300 300" preserveAspectRatio="xMaxYMax meet" aria-hidden="true">
+      <line id="seg1" class="arm-seg" />
+      <line id="seg2" class="arm-seg" />
+      <line id="grip1" class="arm-grip" />
+      <line id="grip2" class="arm-grip" />
+      <circle id="j-shoulder" class="arm-joint" r="6" />
+      <circle id="j-elbow" class="arm-joint" r="5" />
+    </svg>
+    <button id="robot-toggle" type="button" aria-label="Wake the robot arm" title="Wake the robot arm">🦾</button>
+  </div>
+
   <footer>
     <span>© <span id="year"></span> Pedro Leandro La Rotta</span>
   </footer>
@@ -240,5 +252,6 @@
       localStorage.setItem('theme', next);
     });
   </script>
+  <script src="robot.js"></script>
 </body>
 </html>
